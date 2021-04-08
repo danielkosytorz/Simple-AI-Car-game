@@ -60,8 +60,8 @@ class Car:
     def draw(self):
         window.blit(self.IMG, (self.x, self.y))
         # hp bar
-        pygame.draw.rect(window, (200, 0, 0), (self.x - 10, self.y, 5, 60))
-        pygame.draw.rect(window, (0, 128, 0), (self.x - 10, self.y, 5, 6 * self.health))
+        # pygame.draw.rect(window, (200, 0, 0), (self.x - 10, self.y, 5, 60))
+        # pygame.draw.rect(window, (0, 128, 0), (self.x - 10, self.y, 5, 6 * self.health))
         # hitbox
         self.hitbox = (self.x, self.y, self.width, self.height)
         #pygame.draw.rect(window, (255, 0, 0), self.hitbox, 2)
