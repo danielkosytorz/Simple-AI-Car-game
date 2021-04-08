@@ -1,4 +1,3 @@
-[![Run on Repl.it](https://repl.it/badge/github/techwithtim/NEAT-Flappy-Bird)](https://repl.it/github/techwithtim/NEAT-Flappy-Bird)
 # NEAT-AI Car game
 An AI that drive car and avoid obstacles! Using the NEAT python and PyGame module.
 
